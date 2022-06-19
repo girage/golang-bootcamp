@@ -9,7 +9,7 @@ func main() {
 	// speed = speed * force // error becuz diff. type
 	// speed = speed * int(force) // => 200 (100 * 2)
 	// speed = float64(speed) * force // error becuz you speed is int
-	speed = int(float64(speed) * force) // 250
+	speed = int(float64(speed) * force) //  250
 
 	fmt.Println(speed)
 }
